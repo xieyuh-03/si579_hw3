@@ -18,8 +18,6 @@ function changeColor(){
     if(count == 0){
         //change the background color using JS
         div.style.backgroundColor = "#f12345";
-        var color = div.style.backgroundColor;
-        alert(color)
         document.getElementById('color-name').innerHTML = "#F12345";
         //Change the text of the color using the span id color-name
         count = 1;
